@@ -1,12 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style1.css">
+    <title>TFC | Tender Fried Chicken</title>
+    <link rel="icon" type="Tfc-logo" href="./Images/Tfc-logo.png">
+    <link rel="stylesheet" href="./Style.css">
+
 </head>
+
 <body>
-    <button class="btn">Link</button>
+    <!-- Navbar starts -->
+    <div class="nav-btn">
+        <label for="nav-check"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                width="40px" fill="#5f6368">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+        </label>
+    </div>
+    <input type="checkbox" id="nav-check" />
+    <label for="nav-check" class="overlay"></label>
+    <nav class="navbar">
+        <div class="navbar-header">
+            <h3>TFC nation</h3>
+            <img src="./Images/palatable-chicken-with-spices.jpg" alt="Tfc" />
+            <span class="nav-close">
+                <label for="nav-check">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                        fill="#5f6368">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </label>
+            </span>
+        </div>
+        <ul class="nav-items">
+            <li><a href="#header" class="nav-link">Home</a></li>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#products" class="nav-link">Product</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- navbar ends -->
+    <!-- Header Start -->
+    <header class="header" id="header">
+        <div class="banner">
+            <h2>Discover The Secret To Taste</h2>
+            <h1>Tender Fried Chicken</h1>
+            <a href="#" class="btn banner-btn">View More</a>
+        </div>
+    </header>
+    <!-- Header Ends -->
+    <div class="content-divider">
+
+    </div>
+    <!-- features start -->
+    <section>
+        <div class="features clearfix" id="features">
+            <span class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#5f6368">
+                    <path
+                        d="M640-440 474-602q-31-30-52.5-66.5T400-748q0-55 38.5-93.5T532-880q32 0 60 13.5t48 36.5q20-23 48-36.5t60-13.5q55 0 93.5 38.5T880-748q0 43-21 79.5T807-602L640-440Zm0-112 109-107q19-19 35-40.5t16-48.5q0-22-15-37t-37-15q-14 0-26.5 5.5T700-778l-60 72-60-72q-9-11-21.5-16.5T532-800q-22 0-37 15t-15 37q0 27 16 48.5t35 40.5l109 107ZM280-220l278 76 238-74q-5-9-14.5-15.5T760-240H558q-27 0-43-2t-33-8l-93-31 22-78 81 27q17 5 40 8t68 4q0-11-6.5-21T578-354l-234-86h-64v220ZM40-80v-440h304q7 0 14 1.5t13 3.5l235 87q33 12 53.5 42t20.5 66h80q50 0 85 33t35 87v40L560-60l-280-78v58H40Zm80-80h80v-280h-80v280Zm520-546Z" />
+                </svg>
+            </span>
+            <h4 class="feature-title">Made with Love</h4>
+            <p class="feature-text">Discover heartfelt hospitality in our cozy,lovingly accomadations.</p>
+
+        </div>
+        <div class="features">
+            <span class="feature-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
+                    fill="#5f6368">
+                    <path
+                        d="M280-80v-366q-51-14-85.5-56T160-600v-280h80v280h40v-280h80v280h40v-280h80v280q0 56-34.5 98T360-446v366h-80Zm400 0v-320H560v-280q0-83 58.5-141.5T760-880v800h-80Z" />
+                </svg>
+            </span>
+
+            </span>
+            <h4 class="feature-title">Taste</h4>
+            <p class="feature-text">Savor the love in every bite of our exquisite, crafted cuisine.</p>
+        </div>
+        <div class="features">
+            <span class="feature-icon"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+                <path
+                    d="M440-240q-117 0-198.5-81.5T160-520v-240q0-33 23.5-56.5T240-840h500q58 0 99 41t41 99q0 58-41 99t-99 41h-20v40q0 117-81.5 198.5T440-240ZM240-640h400v-120H240v120Zm200 320q83 0 141.5-58.5T640-520v-40H240v40q0 83 58.5 141.5T440-320Zm280-320h20q25 0 42.5-17.5T800-700q0-25-17.5-42.5T740-760h-20v120ZM160-120v-80h640v80H160Zm280-440Z" />
+            </svg>
+            </span>
+            <h4 class="feature-title">Energy</h4>
+            <p class="feature-text">Feel the vibrant and warmth in our welcoming, lively atmosphere.</p>
+        </div>
+        <div class="features">
+            <span class="feature-icon"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+                <path
+                    d="M384-146.67h191.33v-52L616-215.33q71-29.34 117.83-77.84 46.84-48.5 66.84-106.83H159.33q20 58.33 67 107.17 47 48.83 117 77.5L384-198.67v52ZM317.33-80v-75.33q-105.66-42-169.16-124.67T80-466.67h80V-800l720-80v53.33l-466.67 52V-694H880v53.33H413.33v174H880q-4 104-68.5 186.67Q747-197.33 642-155.33V-80H317.33Zm-4-614H360v-75.33l-46.67 5.66V-694Zm-100 0H260v-64l-46.67 5.33V-694Zm100 227.33H360v-174h-46.67v174Zm-100 0H260v-174h-46.67v174ZM480-400Z" />
+            </svg>
+            </span>
+            <h4 class="feature-title">family Recipe</h4>
+            <p class="feature-text">Enjoy our family, Lovingly crafted for a taste of tradition.</p>
+        </div>
+    </section>
+    <!-- features end -->
+    <!-- about Start -->
+    <section class="about" id="about">
+        <div class="section-center clearfix">
+            <div class="about-img">
+                <div class="about-pic-container">
+                    <img src="./Images/Chef cooking.jpg" alt="Chef" class="about-pic">
+                </div>
+            </div>
+
+            <div class="about-info">
+                <div class="section-title">
+                    <h3>About Us</h3>
+                    <h2>TFC Nation</h2>
+                </div>
+                <p class="about-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam vitae ipsa
+                    autem, dolor iusto laboriosam harum exercitationem unde asperiores!</p>
+                <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam recusandae
+                    unde nemo inventore aspernatur. Praesentium ducimus autem sint! Quisquam itaque distinctio ratione
+                    nisi cumque, pariatur repellat debitis et qui non.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- about Ends -->
+    <!-- Product starts -->
+    <section class="products" id="products">
+        <div class="section-center clearfix">
+            <div class="product-info">
+                <div class="section-title">
+                    <h3>Check Out</h3>
+                    <h2>Our Recipe</h2>
+                </div>
+                <p class="product-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem laudantium quasi iusto consectetur,
+                    laboriosam qui ipsum adipisci modi, eius corporis quam ad maxime enim dolorum sit assumenda, vel
+                    amet totam quos aliquam voluptas eos! Similique minus iusto officiis itaque quibusdam.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="product-inv clearfix">
+                <div class="product">
+                    <img src="./Images/Grill-chicken.jpg" alt="GC" class="product-img">
+                    <h4 class="product-title">Grill Chicken</h4>
+                    <h4 class="product-price">&#8377 350</h4>
+                </div>
+                <div class="product">
+                    <img src="./Images/Veggie-chicken.jpg" alt="VC" class="product-img">
+                    <h4 class="product-title">Veggie Chicken</h4>
+                    <h4 class="product-price">&#8377 325</h4>
+                </div>
+                <div class="product">
+                    <img src="Images/garlic chikken.jpg" alt="Garlic Chicken" class="product-img">
+                    <h4 class="product-title">Garlic Chicken</h4>
+                    <h4 class="product-price">&#8377 200</h4>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Product Ends -->
+    <!-- Service Start -->
+    <section class="services" id="services">
+        <div class="section-title services-title">
+            <h3>Explore</h3>
+            <h2>Our Services</h2>
+        </div>
+        <div class="services-center clearfix">
+            <div class="service-card">
+                <div class="service-img-container">
+                    <img src="./Images/Chicken smoke.avif" alt="Chicken" class="service-img">
+                    <span class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                            viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+                            <path
+                                d="M644-80q-100 0-168-68t-68-168q0-100 68-168t168-68q100 0 168 68t68 168q0 100-68 168T644-80Zm0-66.67q70 0 119.67-49.66Q813.33-246 813.33-316t-49.66-119.67Q714-485.33 644-485.33t-119.67 49.66Q474.67-386 474.67-316t49.66 119.67Q574-146.67 644-146.67ZM146.67-160q-27 0-46.84-19.83Q80-199.67 80-226.67V-548q0-11.33 1.5-19.33 1.5-8 5.83-18l88-194.67h-16.66q-15.67 0-25.84-10.17-10.16-10.16-10.16-25.83v-28q0-15.67 10.16-25.83Q143-880 158.67-880H426q15.67 0 25.83 10.17Q462-859.67 462-844v28q0 15.67-10.17 25.83Q441.67-780 426-780h-16.67l86 198.67q-14.33 7.33-28.66 17Q452.33-554.67 440-544L335.33-780h-86.66l-102 226v327.33h206q3.66 17 11.16 34.5T380.67-160h-234ZM644-598.67q-38 0-63.67-25.66Q554.67-650 554.67-688t25.66-63.67Q606-777.33 644-777.33v178.66q0-38 25.67-63.66Q695.33-688 733.33-688T797-662.33q25.67 25.66 25.67 63.66H644Z" />
+                        </svg></span>
+                </div>
+                <div class="service-info">
+                    <h4>Custom Recipes</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iure sapiente expedita ex, cupiditate
+                        voluptate?</p>
+                    <a href="#" class="btn service-btn">Read More</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img-container">
+                    <img src="./Images/Chicken with rice.jpg" alt="Chicken" class="service-img">
+                    <span class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                            viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+                            <path
+                                d="M691.33-615.33H758V-682h-66.67v66.67Zm0 167.33H758v-66.67h-66.67V-448Zm0 166.67H758V-348h-66.67v66.67ZM654-120v-66.67h199.33v-586.66H470V-680l-66.67-47.33V-840H920v720H654Zm-614 0v-393.33l274-196 273.33 196V-120H362.67v-200.67h-97.34V-120H40Zm66.67-66.67h92v-200.66h230.66v200.66h91.34v-292.66L314-627.33 106.67-479.05v292.38ZM654-550ZM429.33-186.67v-200.66H198.67v200.66-200.66h230.66v200.66Z" />
+                        </svg></span>
+                </div>
+                <div class="service-info">
+                    <h4>Home Delivery</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iure sapiente expedita ex, cupiditate
+                        voluptate?</p>
+                    <a href="#" class="btn service-btn">Read More</a>
+                </div>
+            </div>
+            <div class="service-card">
+                <div class="service-img-container">
+                    <img src="./Images/Chicken plate.jpg" alt="Chicken" class="service-img">
+                    <span class="service-icon"><svg xmlns="http://www.w3.org/2000/svg" height="40px"
+                            viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+                            <path
+                                d="M186.67-120q-27 0-46.84-19.83Q120-159.67 120-186.67v-586.66q0-27 19.83-46.84Q159.67-840 186.67-840h586.66q27 0 46.84 19.83Q840-800.33 840-773.33v586.66q0 27-19.83 46.84Q800.33-120 773.33-120H186.67Zm0-366.67v300h586.66v-300h-100v200H286.67v-200h-100Zm166.66 133.34h253.34v-133.34H353.33v133.34Zm-166.66-200h586.66v-220H186.67v220Zm133.21-93.34q-14.21 0-23.71-9.61-9.5-9.62-9.5-23.84 0-14.21 9.61-23.71 9.62-9.5 23.84-9.5 14.21 0 23.71 9.61 9.5 9.62 9.5 23.84 0 14.21-9.61 23.71-9.62 9.5-23.84 9.5Zm160 0q-14.21 0-23.71-9.61-9.5-9.62-9.5-23.84 0-14.21 9.61-23.71 9.62-9.5 23.84-9.5 14.21 0 23.71 9.61 9.5 9.62 9.5 23.84 0 14.21-9.61 23.71-9.62 9.5-23.84 9.5Zm160 0q-14.21 0-23.71-9.61-9.5-9.62-9.5-23.84 0-14.21 9.61-23.71 9.62-9.5 23.84-9.5 14.21 0 23.71 9.61 9.5 9.62 9.5 23.84 0 14.21-9.61 23.71-9.62 9.5-23.84 9.5Z" />
+                        </svg></span>
+                </div>
+                <div class="service-info">
+                    <h4>Tender Chicken</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut iure sapiente expedita ex, cupiditate
+                        voluptate?</p>
+                    <a href="#" class="btn service-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service end -->
+    <!-------- contact start----- -->
+    <section class="contact" id="contact">
+        <div class="section-center clearfix">
+            <div class="section-info">
+                <div class="contact-item">
+                    <h4 class="contact-title">
+                        <span class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                                fill="#5f6368">
+                                <path
+                                    d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+                            </svg>
+                        </span>
+                        address
+                    </h4>
+                    <div class="contact-text">
+                        123 NRT Nagar,Theni <br>
+                        Pincode - 625520
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <h4 class="contact-title">
+                        <span class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+                        </span>
+                        email
+                    </h4>
+                    <div class="contact-text">
+                        iambk@gmail.com
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <h4 class="contact-title">
+                        <span class="contact-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>
+                        </span>
+                        telephone
+                    </h4>
+                    <div class="contact-text">
+                        9876543210
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Contact Us</h3>
+                <form action="#">
+                    <div class="form-group">
+                        <input type="text" class="form-control" required />
+                        <label for="" class="form-label">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" required />
+                        <label for="" class="form-label">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" required></textarea>
+                        <label for="" class="form-label">Message</label>
+                    </div>
+                    <button class="btn submit-btn">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <!-- ---------contact ends--- -->
+     <!-- ------footer start------- -->
+      <footer class="footer">
+        <div class="section-center">
+            <div class="social-icons">
+                <a href="#" class="social-icon">
+                    <?xml version="1.0"?><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px">    <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"/></svg>
+                </a>
+                <a href="#" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"/></svg>
+                </a>
+                <a href="#" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 12 3 C 7.0414839 3 3 7.0414839 3 12 L 3 38 C 3 42.958516 7.0414839 47 12 47 L 38 47 C 42.958516 47 47 42.958516 47 38 L 47 12 C 47 7.0414839 42.958516 3 38 3 L 12 3 z M 12 5 L 38 5 C 41.877484 5 45 8.1225161 45 12 L 45 38 C 45 41.877484 41.877484 45 38 45 L 12 45 C 8.1225161 45 5 41.877484 5 38 L 5 12 C 5 8.1225161 8.1225161 5 12 5 z M 38 7 C 36.904545 7 36 7.9045455 36 9 L 36 12 C 36 13.095455 36.904545 14 38 14 L 41 14 C 42.095455 14 43 13.095455 43 12 L 43 9 C 43 7.9045455 42.095455 7 41 7 L 38 7 z M 38 9 L 41 9 L 41 12 L 38 12 L 38 9 z M 25 12 C 21.331661 12 18.01623 13.540914 15.648438 16 L 8 16 A 1.0001 1.0001 0 0 0 7 17 L 7 37 C 7 40.301625 9.6983746 43 13 43 L 37 43 C 40.301625 43 43 40.301625 43 37 L 43 17 A 1.0001 1.0001 0 0 0 42 16 L 34.351562 16 C 31.98377 13.540914 28.668339 12 25 12 z M 25 14 C 31.073477 14 36 18.926523 36 25 C 36 31.073477 31.073477 36 25 36 C 18.926523 36 14 31.073477 14 25 C 14 18.926523 18.926523 14 25 14 z M 25 16 A 1.0001 1.0001 0 0 0 24.589844 16.083984 C 19.831681 16.311415 16 20.186041 16 25 C 16 29.959394 20.041635 34 25 34 C 29.958365 34 34 29.959394 34 25 C 34 20.187371 30.170385 16.313404 25.414062 16.083984 A 1.0001 1.0001 0 0 0 25 16 z M 9 18 L 14.068359 18 C 12.766308 20.024088 12 22.423973 12 25 C 12 32.158523 17.841477 38 25 38 C 32.158523 38 38 32.158523 38 25 C 38 22.423973 37.233692 20.024088 35.931641 18 L 41 18 L 41 37 C 41 39.220375 39.220375 41 37 41 L 13 41 C 10.779625 41 9 39.220375 9 37 L 9 18 z M 25 18 C 28.877635 18 32 21.121394 32 25 C 32 28.878606 28.877635 32 25 32 C 21.122365 32 18 28.878606 18 25 C 18 21.121394 21.122365 18 25 18 z"/></svg>
+                </a>
+            </div>
+            <h4 class="footer-text">&copy; 2024 
+            <span class="company">TFC Nation</span> all rights reserved
+           </h4>
+            
+        </div>
+
+      </footer>
+      <!-- ---------footer ends----------- -->
+
 </body>
+
 </html>
